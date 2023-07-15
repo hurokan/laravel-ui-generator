@@ -1,0 +1,41 @@
+{
+    "name": "laravel-ui-generator-vendor/laravel-ui-generator",
+    "description": "This is most simplest laravel package for create user interface",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hasan Uddin Rokan",
+            "email": "hurokan91@gmail.com",
+            "homepage": "http://rokan.bio/"
+        }
+    ],
+    "homepage": "https://github.com/laravel-ui-generator-vendor/laravel-ui-generator",
+    "keywords": ["Laravel", "LaravelUiGenerator"],
+    "require": {
+        "illuminate/support": "~9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~7"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelUiGeneratorVendor\\LaravelUiGenerator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LaravelUiGeneratorVendor\\LaravelUiGenerator\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelUiGeneratorVendor\\LaravelUiGenerator\\LaravelUiGeneratorServiceProvider"
+            ],
+            "aliases": {
+                "LaravelUiGenerator": "LaravelUiGeneratorVendor\\LaravelUiGenerator\\Facades\\LaravelUiGenerator"
+            }
+        }
+    }
+}
