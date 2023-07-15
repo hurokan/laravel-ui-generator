@@ -37,6 +37,7 @@
                 "LaravelUiGenerator": "LaravelUiGeneratorVendor\\LaravelUiGenerator\\Facades\\LaravelUiGenerator"
             }
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
 
