@@ -12,10 +12,10 @@
     "homepage": "https://github.com/laravel-ui-generator-vendor/laravel-ui-generator",
     "keywords": ["Laravel", "LaravelUiGenerator"],
     "require": {
-        "illuminate/support": "^9.0"
+        "illuminate/support": "^8.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.0",
+        "phpunit/phpunit": "^8.0",
         "orchestra/testbench": "^7.0"
     },
     "autoload": {
